@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.all-grids {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.grid-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.gear-grid {
+  width: 17rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+
+.gear-slot {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  justify-content: center;
+  padding: .5rem;
+  background: #1e293b;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #7d7e80;
+  color: #e5e7eb;
+  width: 110px;
+}
+
+select option {
+  background: #7d7e80;
+  color: #e5e7eb;
+}
+
+.none {
+  background: #7d7e80;
+  color: #e5e7eb;
+}
+
+.crafted {
+  background: #6cf069;
+  color: #ffffff;
+}
+
+.tome {
+  background: #31aaeb;
+  color: #ffffff;
+}
+
+.savage {
+  background: #f5b445;
+  color: #ffffff;
+}
+
+.controls {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.reset {
+  background: #dc2626;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
